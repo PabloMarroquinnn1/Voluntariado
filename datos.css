@@ -1,0 +1,83 @@
+body {
+    background-color: #ADD8E6; 
+    font-family: Arial, sans-serif;
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.carnets-container {
+    display: flex;
+    gap: 20px; /* Espacio entre los carnets */
+}
+
+.carnet {
+    width: 500px; /* Reducir el ancho del carnet */
+    height: 300px; /* Reducir la altura del carnet */
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.6em; /* Ajustar el tamaño de la fuente */
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    font-family: 'Pacifico', cursive; 
+    background-color: bisque;
+}
+
+.foto {
+    width: 100px; /* Reducir el tamaño de la foto */
+    height: 100px; /* Reducir el tamaño de la foto */
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h2 {
+    margin-top: 0;
+    font-size: 1.3em; /* Ajustar el tamaño de la fuente */
+}
+
+.info h3 {
+    font-size: 1.2em; /* Ajustar el tamaño de la fuente */
+}
+
+.info h5 {
+    font-size: 1.0em; /* Ajustar el tamaño de la fuente */
+}
+
+.info p {
+    font-size: 1.0em; /* Ajustar el tamaño de la fuente */
+    margin: 0;
+}
